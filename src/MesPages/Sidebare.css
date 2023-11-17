@@ -1,0 +1,140 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .sidebar {
+    width: 350px;
+    min-height: 100vh;
+    background-color: rgb(230, 206, 224);
+    
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    padding: 10px;
+  }
+
+  .contact-links {
+    /* Styles pour le bloc de liens de contact */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+    /* Ajoutez d'autres styles comme la couleur, la police, etc., selon vos préférences */
+  }
+  
+  .contact-links a {
+    /* Styles pour chaque lien de contact */
+    text-decoration: none;
+    color: #333; /* Couleur du texte */
+  }
+  
+
+  .profile-picture-container {
+    text-align: center; /* Centrer l'image horizontalement */
+    margin-bottom: 10px; /* Espacement sous l'image */
+ 
+  }
+  
+  .profile-picture {
+    border: 3px solid #000; /* Bordure autour de l'image */
+    width: auto; /* Largeur automatique en fonction de la dimension originale */
+    max-width: 100%; /* Empêcher l'image de dépasser la taille du conteneur */
+    height: auto; /* Hauteur automatique pour maintenir les proportions */
+    max-height: 200px; /* Hauteur maximale de l'image */
+    display: block; /* Empêcher les marges supplémentaires */
+  }
+  
+  /* Style pour la page principale */
+.home-page {
+    display: flex;
+  }
+  
+  .content {
+    flex: 1; /* Pour occuper l'espace restant à droite de la barre latérale */
+    padding: 20px;
+  }
+
+/* Ajouter ces styles pour styliser les liens en cercles */
+.sidebar a {
+    display: inline-block;
+    min-width: 40px; /* Largeur minimale pour le cercle */
+    height: 40px;
+    border-radius: 50%; /* Pour créer des cercles */
+    line-height: 40px; /* Pour centrer le texte verticalement */
+    margin-bottom: 15px; /* Espacement supplémentaire entre les liens */
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none; /* Pour enlever le soulignage par défaut des liens */
+    white-space: nowrap; /* Empêche le retour à la ligne du texte */
+    text-align: center; /* Centrer le texte horizontalement */
+    padding: 0 15px; /* Espacement intérieur du cercle */
+    font-size: 14px; /* Taille de la police */
+  }
+  
+  
+  /* Styles spécifiques pour les liens Accueil et Formation */
+  .sidebar a[href="/"] {
+    background-color: rgb(182, 113, 164); /* Couleur du lien Accueil */
+    color: #fff;
+  }
+  
+  .sidebar a[href="/MesFormations"] {
+    background-color:  rgb(182, 113, 164); /* Couleur du lien Formation */
+    color: #fff;
+  }
+  
+  .sidebar a[href="/MesExperiences"] {
+    background-color:  rgb(182, 113, 164);/* Couleur du lien Formation */
+    color: #fff;
+  }
+  .sidebar a[href="/MesCompetences"] {
+    background-color: rgb(182, 113, 164); /* Couleur du lien Formation */
+    color: #fff;
+  }
+  
+  /* Animation au survol */
+  .sidebar a:hover:not(:hover + a) {
+    transform: scale(1.1); /* Zoom de 10% au survol */
+  }
+
+  .sidebar .navigation ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000; /* Couleur du texte */
+    margin-bottom: 15px; /* Espacement entre les liens */
+    margin-right: 10px; /* Espacement entre les liens */
+  }
+  /* Sidebare.css */
+
+/* Styles existants pour la barre latérale */
+/* ... */
+
+.content {
+    padding: 20px;
+  }
+  
+  .formation-details {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .formation-details h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .formation-details p {
+    color: #555;
+    font-size: 16px;
+  }
+  
+
+  
+  
